@@ -61,7 +61,7 @@ def clipAll(featureclasses, clip_feature, destination_folder):
 
 if __name__ == '__main__':
     # Retrieve input parameter values and run main.
-    #Setting Parameter 0 as default workspace
+    #Setting Parameter 0 as default workspace 
     env.workspace = ap.GetParameterAsText(0)
     clip_feature = ap.GetParameterAsText(1)
     """
